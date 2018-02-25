@@ -34,7 +34,7 @@ This command will download the vagrant box and compile the internal guest enviro
 
 Once the process have finished you need to launch the box by executing this:
 ```
-vagrant ssh -c "cd $HOME/spectral-workbench && ./run-spectral.sh"
+vagrant ssh -c "cd /home/vagrant/spectral-workbench && ./run-spectral.sh"
 ```
 This command will launch the server using the ssh protocol.
 
